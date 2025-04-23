@@ -3,7 +3,7 @@
 void update_array(int a[],int size){
     int i, up_value;
     if(i>=0||i<5){
-    printf("\n Enter the index (0-4) you want to change: ");
+    printf("\n Enter the index (0-%d) you want to change: "size-1);
     scanf("%d", &i);
     printf("\n Enter value what you want to insted off index %dth :",i);
     scanf("%d", &up_value);
