@@ -17,7 +17,7 @@ void update_array(int a[],int size){
 }
 void delete_index(int a[],int size){
     int i;
-    printf("\n Enter the index (0-4) Whice one deleted you want:");
+    printf("\n Enter the index (0-%d) Whice one deleted you want:",size-1);
     scanf("%d",&i);
     for(int j=i;j<size-1;j++){
         int temp=a[j+1];
